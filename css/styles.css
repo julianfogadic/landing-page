@@ -83,7 +83,9 @@ img {
 h1 {
     display: flex;
     justify-content: center;
-    color: #3882f6;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
     padding-top: 24px;
 }
 
@@ -91,14 +93,39 @@ h1 {
     display: flex;
     flex: 1;
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #1F2937;
     padding-top: 34px;
     column-gap: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .text {
     font-size: 18px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quote {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    justify-content: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+figcaption {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 300px;
 }
 
